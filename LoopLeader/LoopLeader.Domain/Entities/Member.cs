@@ -18,6 +18,8 @@ namespace LoopLeader.Domain.Entities
         public string LoginName { get; set; }
 
         [Required(ErrorMessage = "Please enter a password")]
+        [DataType(DataType.Password)]
+        [StringLength(20, ErrorMessage = "Must be less than 20 characters")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Please enter your First Name")]
@@ -29,6 +31,27 @@ namespace LoopLeader.Domain.Entities
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Please enter an Email Address")]
+        [RegularExpression(@"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$",
+                                    ErrorMessage = "Email Format is wrong")]
+        [StringLength(50, ErrorMessage = "Must be less than 50 characters")]
         public string Email { get; set; }
+
+        [StringLength(100, ErrorMessage = "Less than 100 characters")]
+        public string StreetAddress1 { get; set; }
+
+        [StringLength(100, ErrorMessage = "Less than 100 characters")]
+        public string StreetAddress2 { get; set; }
+
+        [RegularExpression(@"^[a-zA-Z'.\s]{1,40}$", ErrorMessage = "Special Characters not allowed")]
+        [StringLength(50, ErrorMessage = "Must be less than 50 characters")]
+        public string City { get; set; }
+
+        [RegularExpression(@"^[a-zA-Z'.\s]{1,40}$", ErrorMessage = "Special Characters not allowed")]
+        [StringLength(50, ErrorMessage = "Must be less than 50 characters")]
+
+        public string State { get; set; }
+
+        [StringLength(20, ErrorMessage = "Must be less than 20 characters")]
+        public string Zip { get; set; }
     }
 }
