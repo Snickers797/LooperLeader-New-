@@ -51,6 +51,8 @@
     <Compile Include="Abstract\IContent.cs" />
     <Compile Include="Abstract\IMember.cs" />
     <Compile Include="Abstract\IProduct.cs" />
+    <Compile Include="Concrete\ContentRepository.cs" />
+    <Compile Include="Concrete\FakeContentRepo.cs" />
     <Compile Include="Concrete\FakeMemberRepository.cs" />
     <Compile Include="Concrete\LLDbContext.cs" />
     <Compile Include="Concrete\MemberRepository.cs" />
