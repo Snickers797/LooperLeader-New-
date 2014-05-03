@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LoopLeader.Domain.Abstract;
+using LoopLeader.Domain.Concrete;
 
 namespace LoopLeader.Domain.Entities
 {
-public class Content : IContent
+    public class Content
     {
         /*The Section property should tell which page/section we intend to modify.  I think this should refer to the actual
            entry in the database where the content is stored, not the page itself.*/
@@ -18,8 +19,17 @@ public class Content : IContent
         public string NewText { get; set; }
 
         //The function to do the updating
-        public void UpdateSection(string contentID, string newSectionInfo)
+        public void UpdateSection(/*string contentID, string newSectionInfo*/)
         {
+            //Commented out for testing!  Please uncomment the next two lines later for the real DB.
+            //ContentRepository contentRepo = new ContentRepository();
+            //contentRepo.SaveContent(this);
+
+
+            FakeContentRepo contentRepo = new FakeContentRepo();
+
+            contentRepo.SaveContent(this, contentRepo);
+
             /*Psuedo-code for possible update method:
              Get Section to Update (passed in as function parameter above)
              If NewSectionInfo is < 750 characters
