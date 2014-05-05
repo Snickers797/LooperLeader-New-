@@ -13,5 +13,6 @@ namespace LoopLeader.Domain.Concrete
     {
         public DbSet<Member> Members { get; set; }
         public DbSet<Content> Content { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
