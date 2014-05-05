@@ -18,3 +18,16 @@ C:\Users\hibba\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\b
 C:\Users\hibba\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.csprojResolveAssemblyReference.cache
 C:\Users\hibba\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.dll
 C:\Users\hibba\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.pdb
+C:\Users\CarlSkeel\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.csprojResolveAssemblyReference.cache
+C:\Users\CarlSkeel\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.dll
+C:\Users\CarlSkeel\Documents\GitHub\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.pdb
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.dll.config
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.dll
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.pdb
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.dll
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.xml
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.csprojResolveAssemblyReference.cache
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.dll
+C:\Users\CarlSkeel\Documents\GitBack\Building\LooperLeader-New-\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.pdb
