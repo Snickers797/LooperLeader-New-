@@ -11,6 +11,7 @@ using LoopLeader.Domain.Concrete;
 
 namespace LoopLeader.Tests
 {
+    [TestClass]
     public class RepositoryTests
     {
         [TestMethod]
